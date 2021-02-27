@@ -24,7 +24,7 @@
   <body>
      <header class="header">
       <div class="container header-container">
-        <nav>
+        <nav class="page-header-nav">
           <a class="logo" lang="en" href=""
             ><span class="logo-span">Web</span>Studio</a
           >
@@ -32,19 +32,19 @@
             <li><a class="link current" href="./index.html">Студия</a></li>
             <li><a class="link" href="./portfolio.html  ">Портфолио</a></li>
             <li><a class="link" href="">Контакты</a></li>
-          <button type="button" 
-          class="menu-button is-open"
-          data-menu-button
-          aria-expanded="false">
-            <svg width="40px" height="40px" aria-label="кнопка">
-              <use class="icon-menu" href="./images/icons-defs.svg#icon-menu_40px">
-              </use>
-            <use class="icon-cross" href="./images/icons-defs.svg#icon-close-btn">
-            </use>
-            </svg>
-          </button>
           </ul>
-          <div class="modal">
+         <button type="button" class="menu-button "
+         data-menu-button
+         aria-expanded="false">
+           
+           <svg width="40px" height="40px" aria-label="knopka">
+             <use class="icon-cross" href="./images/icons-defs.svg#icon-close-btn"></use>
+             <use class="icon-menu" href="./images/icons-defs.svg#icon-menu_40px"></use>
+           </svg>
+         </button>
+          
+          <div class="menu-modal is-open"
+          data-menu>
             data-modal
           </div>
         </nav>
