@@ -26,6 +26,14 @@ footer {
   text-align: center;
   // display: flex;
   // flex-direction: row;
+  @media screen and(min-width:768px) {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and(max-width:1200px) {
+    justify-content: space-between;
+  }
 }
 .footer-nav {
   // margin-right: 70px;
@@ -48,6 +56,7 @@ address {
     display: inline;
   }
   .link {
+    text-align: center;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -64,6 +73,9 @@ address {
   margin-bottom: 60px;
   // width: 206px;
   // margin-right: 93px;
+  @media screen and(min-width:768px) {
+    margin: 0;
+  }
   .icon-list {
     li {
       margin-right: 10px;
@@ -94,8 +106,16 @@ address {
   }
 }
 .mailing {
+  @media screen and(min-width:768px) {
+    margin-top: 60px;
+    margin-left: 166px;
+  }
+  @media screen and(min-width:1200px) {
+    margin-top: 0;
+    margin-left: 0;
+  }
   input[placeholder] {
-    width: 358px;
+    width: 100%;
     padding: 15px 0 15px 16px;
     font-family: Roboto;
     font-style: normal;

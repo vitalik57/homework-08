@@ -293,6 +293,13 @@ nav .auth-nav a {
   color: #212121;
 }
 
+@media screen and (min-width: 768px) {
+  .link {
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
 .link:hover,
 .link :focus {
   color: #2196f3;
@@ -327,6 +334,16 @@ nav .auth-nav a {
   line-height: 22px;
   letter-spacing: 0.02em;
   color: #2196f3;
+}
+
+.phone {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .phone {
+    margin-top: 0;
+  }
 }
 
 .link__text-address {
@@ -704,6 +721,12 @@ h3 {
   width: 70px;
 }
 
+@media screen and (min-width: 768px) {
+  .list {
+    flex-wrap: wrap;
+  }
+}
+
 .section-works {
   padding-bottom: 94px;
 }
@@ -927,6 +950,20 @@ footer h2 {
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-container {
+    justify-content: space-between;
+  }
+}
+
 .footer-nav {
   display: flex;
   flex-direction: column;
@@ -949,6 +986,7 @@ address {
 }
 
 .footer-auth-nav .link {
+  text-align: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -964,6 +1002,12 @@ address {
 .subscribe {
   margin-top: 60px;
   margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe {
+    margin: 0;
+  }
 }
 
 .subscribe .icon-list li {
@@ -997,8 +1041,22 @@ address {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 768px) {
+  .mailing {
+    margin-top: 60px;
+    margin-left: 166px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mailing {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
 .mailing input[placeholder] {
-  width: 358px;
+  width: 100%;
   padding: 15px 0 15px 16px;
   font-family: Roboto;
   font-style: normal;

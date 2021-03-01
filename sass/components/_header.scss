@@ -190,6 +190,10 @@ nav {
   line-height: 47px;
   letter-spacing: 0.02em;
   margin-bottom: 33px;
+  @media screen and(min-width:768px) {
+    margin-bottom: 0;
+    text-align: center;
+  }
 
   color: #212121;
 
@@ -226,7 +230,12 @@ nav {
 
   color: #2196f3;
 }
-
+.phone {
+  margin-top: 10px;
+  @media screen and(min-width:1200px) {
+    margin-top: 0;
+  }
+}
 .link__text-address {
   font-weight: 500;
   font-size: 24px;
