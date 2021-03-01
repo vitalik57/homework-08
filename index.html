@@ -23,7 +23,7 @@
   </head>
   <body>
      <header class="header">
-      <div class="container header-container">
+      <!-- <div class="container header-container">
         <nav class="page-header-nav">
           <a class="logo" lang="en" href=""
             ><span class="logo-span">Web</span>Studio</a
@@ -32,10 +32,11 @@
             <li><a class="link current" href="./index.html">Студия</a></li>
             <li><a class="link" href="./portfolio.html  ">Портфолио</a></li>
             <li><a class="link" href="">Контакты</a></li>
-          </ul>
+          </ul> -->
          <button type="button" class="menu-button "
          data-menu-button
-         aria-expanded="false">
+         aria-expanded="false"
+         aria-controls="menu-modal">
            
            <svg width="40px" height="40px" aria-label="knopka">
              <use class="icon-cross" href="./images/icons-defs.svg#icon-close-btn"></use>
@@ -43,11 +44,38 @@
            </svg>
          </button>
           
-          <div class="menu-modal is-open"
+         <div class="menu-modal is-open"
+          id="menu-modal"
           data-menu>
-            data-modal
+          <ul class="site-nav list">
+            <li><a class="link current" href="./index.html">Студия</a></li>
+            <li><a class="link" href="./portfolio.html  ">Портфолио</a></li>
+            <li><a class="link" href="">Контакты</a></li>
+            
+          </ul>
+          <ul class="info-text">
+            <li class="link__phone">
+              <a class="link__text" href="tel:+380961111111">
+            
+                +38 096 111 11 11
+              </a>
+            </li>
+            <li class="link__address">
+              <a class="link__text-address" lang="en" href="mailto:info@devstudio.com">
+            
+                info@devstudio.com</a>
+            </li>
+          </ul>
+          <ul class="web-text">
+            <li class="web__annex"><a href="" class="web__icon">Instagram</a></li>
+            <li class="web__annex"><a href="" class="web__icon">Twitter</a></li>
+
+            <li class="web__annex"><a href="" class="web__icon">Facebook</a></li>
+            <li class="web__annex"><a href="" class="web__icon">LinkedIn</a></li>
+          </ul> 
+            
           </div>
-        </nav>
+        <!-- </nav>
         <ul class="auth-nav list">
           <li>
             <a class="link" lang="en" href="mailto:info@devstudio.com">
@@ -66,8 +94,8 @@
             </a>
           </li>
         </ul>
-      </div>
-    </header>  -->
+      </div> -->
+    </header>  
 
     <main>
       <section class="section-hero">
