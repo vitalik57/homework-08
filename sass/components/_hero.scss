@@ -27,16 +27,16 @@
   display: block;
   margin: 0 auto 40px;
   @media screen and (min-width: 480px) {
-    .hero-title {
-      width: 360px;
-    }
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
   }
   @media screen and(min-width:1200px) {
-    .hero-title {
-      width: 696px;
-      font-size: 44px;
-      line-height: 1.37;
-    }
+    font-weight: 900;
+    font-size: 44px;
+    width: 696px;
+
+    line-height: 1.37;
   }
 }
 .button {
@@ -57,9 +57,4 @@
   display: block;
   margin: 0 auto;
   padding: 10px 32px;
-}
-@media screen and (min-width: 480px) {
-  .hero-title {
-    width: 360px;
-  }
 }

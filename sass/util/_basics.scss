@@ -35,6 +35,9 @@ a {
     line-height: 1.43;
     text-align: center;
     color: var(--title-text-color);
+    @media screen and(min-width:1200px) {
+      margin-bottom: 50px;
+    }
   }
   .header.portfolio {
     border-bottom: 1px solid #ececec;

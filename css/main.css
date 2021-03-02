@@ -61,6 +61,12 @@ a {
   color: var(--title-text-color);
 }
 
+@media screen and (min-width: 1200px) {
+  .container .section-title {
+    margin-bottom: 50px;
+  }
+}
+
 .container .header.portfolio {
   border-bottom: 1px solid #ececec;
 }
@@ -424,15 +430,18 @@ nav .auth-nav a {
 }
 
 @media screen and (min-width: 480px) {
-  .hero-title .hero-title {
-    width: 360px;
+  .hero-title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .hero-title .hero-title {
-    width: 696px;
+  .hero-title {
+    font-weight: 900;
     font-size: 44px;
+    width: 696px;
     line-height: 1.37;
   }
 }
@@ -457,12 +466,6 @@ nav .auth-nav a {
   display: block;
   margin: 0 auto;
   padding: 10px 32px;
-}
-
-@media screen and (min-width: 480px) {
-  .hero-title {
-    width: 360px;
-  }
 }
 
 .modal {
@@ -678,6 +681,12 @@ nav .auth-nav a {
   padding: 60px 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .section-features {
+    padding: 94px 0;
+  }
+}
+
 .features li {
   width: 100%;
 }
@@ -719,7 +728,6 @@ h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase;
   color: var(--title-text-color);
 }
 
@@ -790,6 +798,12 @@ h3 {
 .section-members {
   background-color: var(--btn-bg-color);
   padding: 60px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-members {
+    padding: 94px 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -886,6 +900,12 @@ h3 {
 
 .partners {
   padding: 60px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .partners {
+    padding: 94px 0;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -1185,6 +1205,12 @@ address {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 56px;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-btn {
+    justify-content: center;
+  }
 }
 
 .filter-btn li {
