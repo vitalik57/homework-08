@@ -4,6 +4,9 @@ footer {
   .logo {
     color: var(--primary-bg-color);
     margin-bottom: 20px;
+    @media screen and(min-width:1200px) {
+      text-align: left;
+    }
   }
   .auth-nav {
     li {
@@ -20,6 +23,9 @@ footer {
     text-transform: uppercase;
     color: var(--primary-bg-color);
     margin-bottom: 20px;
+    @media screen and(min-width:1200px) {
+      text-align: left;
+    }
   }
 }
 .footer-container {
@@ -39,6 +45,9 @@ footer {
   // margin-right: 70px;
   display: flex;
   flex-direction: column;
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
 }
 address {
   margin-bottom: 9px;
@@ -56,7 +65,7 @@ address {
     display: inline;
   }
   .link {
-    text-align: center;
+    text-align: left;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -65,6 +74,9 @@ address {
     margin-bottom: 8px;
     &:last-child {
       margin-bottom: 0;
+    }
+    @media screen and(max-width:1200px) {
+      text-align: center;
     }
   }
 }
@@ -75,6 +87,9 @@ address {
   // margin-right: 93px;
   @media screen and(min-width:768px) {
     margin: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
   }
   .icon-list {
     li {
@@ -129,6 +144,11 @@ address {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     align-items: baseline;
+    @media screen and(min-width:1200px) {
+      width: 358px;
+      height: 50px;
+      margin-right: 12px;
+    }
   }
   // div {
   //    display: flex;
@@ -149,10 +169,18 @@ address {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: transparent;
+    @media screen and(min-width:1200px) {
+      margin-top: 0;
+    }
 
     svg {
       fill: currentColor;
       margin-left: 10px;
     }
+  }
+}
+.form-div {
+  @media screen and(min-width:1200px) {
+    display: flex;
   }
 }

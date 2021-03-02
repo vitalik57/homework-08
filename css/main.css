@@ -930,6 +930,12 @@ footer .logo {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+  footer .logo {
+    text-align: left;
+  }
+}
+
 footer .auth-nav li {
   margin-bottom: 9px;
 }
@@ -944,6 +950,12 @@ footer h2 {
   text-transform: uppercase;
   color: var(--primary-bg-color);
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  footer h2 {
+    text-align: left;
+  }
 }
 
 .footer-container {
@@ -969,6 +981,12 @@ footer h2 {
   flex-direction: column;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-nav {
+    margin-right: 70px;
+  }
+}
+
 address {
   margin-bottom: 9px;
   font-family: Roboto;
@@ -986,7 +1004,7 @@ address {
 }
 
 .footer-auth-nav .link {
-  text-align: center;
+  text-align: left;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -999,6 +1017,12 @@ address {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .footer-auth-nav .link {
+    text-align: center;
+  }
+}
+
 .subscribe {
   margin-top: 60px;
   margin-bottom: 60px;
@@ -1007,6 +1031,12 @@ address {
 @media screen and (min-width: 768px) {
   .subscribe {
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    margin-right: 93px;
   }
 }
 
@@ -1072,6 +1102,14 @@ address {
   align-items: baseline;
 }
 
+@media screen and (min-width: 1200px) {
+  .mailing input[placeholder] {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+  }
+}
+
 .mailing button {
   margin-top: 30px;
   align-items: center;
@@ -1089,9 +1127,21 @@ address {
   border: transparent;
 }
 
+@media screen and (min-width: 1200px) {
+  .mailing button {
+    margin-top: 0;
+  }
+}
+
 .mailing button svg {
   fill: currentColor;
   margin-left: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .form-div {
+    display: flex;
+  }
 }
 
 .filter {
